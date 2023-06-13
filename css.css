@@ -3,9 +3,22 @@ body{
     background-color: rgb(255, 216, 132);
 }
 
+.cabeçalho{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+}
+
 .titulo{
+    display: flex;
     background-color: brown;
-    text-align: center;
 }
 
 .sub-titulo{
@@ -16,6 +29,8 @@ body{
 .letra-titulo{
     font-style: italic;
     color: aliceblue;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .letra-sub{
@@ -23,9 +38,21 @@ body{
     color: azure;
 }
 
+.clicks{
+    font-style: italic;
+    color: rgb(51, 184, 57);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+
+.opcoes-clicks{
+    display: inline-flex;
+    margin-left: 65%;
+}
+
 .botao-sim{
     position: absolute;
-    
     top: 50%;
     left: 25%;
     transform: translate(-50%, -50%);
