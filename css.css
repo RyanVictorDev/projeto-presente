@@ -1,0 +1,55 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{
+    background-color: rgb(255, 216, 132);
+}
+
+.titulo{
+    background-color: brown;
+    text-align: center;
+}
+
+.sub-titulo{
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.letra-titulo{
+    font-style: italic;
+    color: aliceblue;
+}
+
+.letra-sub{
+    font-style: italic;
+    color: azure;
+}
+
+.botao-sim{
+    position: absolute;
+    
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    padding: 30px 50px;
+    background-color: #1ae635;
+    cursor: pointer;
+}
+
+.resposta-sim{
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.botao-nao{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+
+.resposta-nao{
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+}
