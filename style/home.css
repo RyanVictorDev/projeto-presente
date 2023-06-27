@@ -54,3 +54,9 @@ header{
     margin-left: auto;
     margin-right: 15px
 }
+
+.recado{
+    color: aliceblue;
+    text-align: center;
+    background-image: linear-gradient(to left, rgb(120, 191, 194), rgb(168, 121, 212));
+}
