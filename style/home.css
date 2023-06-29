@@ -4,6 +4,7 @@ body{
     background-color: rgb(252, 219, 147);
     background-size: cover;
     background-position: center;
+    font-family:'Times New Roman', Times, serif;
 }
 
 a {
@@ -72,6 +73,35 @@ header{
     background-image: linear-gradient(to left, rgb(156, 222, 224), rgb(176, 130, 219));
 }
 
+.gif1-home{
+    margin-left: 5px;
+    margin-top: 10px;
+    height: auto;
+    width: auto;
+}
+
+.questao{
+    background-color: rgba(240, 248, 255, 0.37);
+    margin-top: 12px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.botao-sim{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(111, 223, 185);
+    color: rgb(255, 255, 255);
+    margin-right: 45px;
+}
+
+.botao-nao{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: brown;
+    color: rgb(255, 255, 255);
+}
+
 @media screen and (max-width: 960px) {
     .titulo{
         display: flex;
@@ -87,5 +117,10 @@ header{
     .opcoes-clicks{
         justify-content: center;
         /* align-self: last baseline; */
+    }
+
+    .gif1-home{
+        height: 150px;
+        width: 150px;
     }
 }
