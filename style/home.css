@@ -102,6 +102,26 @@ header{
     color: rgb(255, 255, 255);
 }
 
+.primeiro-recado{
+    display: flexbox;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+    background-color: rgba(240, 248, 255, 0.37);
+    border-radius: 15px;
+    max-width: max-content;
+}
+
+.gif2-home{
+    display: flex;
+    margin-right: 10px;
+    margin-left: auto;
+    margin-top: 10px;
+    height: 250px;
+    width: 250px;
+}
+
 @media screen and (max-width: 960px) {
     .titulo{
         display: flex;
@@ -120,6 +140,15 @@ header{
     }
 
     .gif1-home{
+        height: 150px;
+        width: 150px;
+    }
+
+    .primeiro-recado{
+        font-size: 14px;
+    }
+
+    .gif2-home{
         height: 150px;
         width: 150px;
     }
