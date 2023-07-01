@@ -52,13 +52,13 @@ header{
     display: flex;
     font-style: italic;
     color: rgb(51, 184, 57);
-    margin-top: auto;
-    margin-bottom: auto;
     margin-left: 10px;
 
 }
 
 .opcoes-clicks{
+    margin-top: auto;
+    margin-bottom: auto;
     display: inline-flex;
     text-align: right;    
     margin-left: auto;
