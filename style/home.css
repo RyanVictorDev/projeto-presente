@@ -129,24 +129,48 @@ header{
     background-image: linear-gradient(to left, rgb(156, 222, 224), rgb(176, 130, 219));
 }
 
-.opcoes{
-    display: flex;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-}
-
 .icon-op{
     height: 100px;
     width: 100px;
 }
 
-.op{
+.op-fotos{
     display: flexbox;
     text-align: center;
-    margin-left: 80px;
-    margin-right: 80px;
+    justify-content: center;
+    color: blueviolet;
+}
+
+.op-cartinha{
+    display: flexbox;
+    text-align: center;
+    justify-content: center;
+    color: blueviolet;
+}
+
+.desc-op{
+    text-align: center;
+    margin-top: 20px;
+    display: inline-flexbox;
+}
+
+.desc-op-fotos{
+    display: flexbox;
+    max-width: 45%;
+    margin-left: 20px;
+    margin-right: auto;
+    border-radius: 15px;
+    background-color: rgba(240, 248, 255, 0.37);
+}
+
+.desc-op-cartinha{
+    display: flexbox;
+    margin-top: 10px;
+    max-width: 45%;
+    margin-right: 20px;
+    margin-left: auto;
+    border-radius: 15px;
+    background-color: rgba(240, 248, 255, 0.37);
 }
 
 @media screen and (max-width: 960px) {
@@ -183,5 +207,13 @@ header{
     .icon-op{
         height: 60px;
         width: 60px;
+    }
+
+    .desc-op-cartinha{
+        font-size: 14px;
+    }
+
+    .desc-op-fotos{
+        font-size: 14px;
     }
 }
