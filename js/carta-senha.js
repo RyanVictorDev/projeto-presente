@@ -6,10 +6,10 @@ function validarsenha(){
     if (senha.length < 21){
         alert("A senha deve ter pelo menos 21 caracteres, baby");
         return;
-    } if (senha != "wefellinloveinoctuber") {
+    } if (senha != "wefellinloveinoctober") {
         alert("Senha errada, querida ;)");
         return;
-    } if(senha == "wefellinloveinoctuber") {
+    } if(senha == "wefellinloveinoctober") {
         window.open(url, "_blank");
     }
 }
