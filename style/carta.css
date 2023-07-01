@@ -66,6 +66,24 @@ header{
     margin-right: 15px
 }
 
+.senha-input{
+    display: flexbox;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;    
+    color: white;
+    border-radius: 5px;
+    max-width: fit-content;
+    background-color: rgba(137, 43, 226, 0.295);
+ 
+}
+
+.botao-enviar{
+    color: black;
+    background-color:chartreuse;
+}
+
 @media screen and (max-width: 960px) {
     .titulo{
         display: flex;
