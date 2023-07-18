@@ -109,28 +109,60 @@ header{
 
 /* Imagens configurações */
 
+/* Imagens a esquerda */
+
 .left-img{
     display: flex;
+    flex-direction: column;
     margin-top: 30px;
-    display: flex;
     justify-content: center;
-    margin-left: 15px;
-    margin-right: 15px;
 }
 
 
 .img-left{
+    margin-left: 75px;
+    margin-right: auto;
     max-width: 300px;
     height: auto;
-    border: 50px;
     border-radius: 15px;
 }
 
 .text-left-img{
     display: flex;
+    margin-top: 20px;
     max-width: 300px;
     text-align: center;
-    margin-left: 15%;
+    margin-left: 75px;
+    margin-right: auto;
+    background-color: rgba(240, 248, 255, 0.37);
+    border-radius: 15px;
+}
+
+/* Imagens a direita */
+
+.right-img{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.img-right{
+    margin-right: 75px;
+    margin-left: auto;
+    max-width: 300px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.text-right-img{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 75px;
+    margin-left: auto;
+    max-width: 300px;
+    text-align: center;
     background-color: rgba(240, 248, 255, 0.37);
     border-radius: 15px;
 }
@@ -159,6 +191,21 @@ header{
         margin-right: 20px;
     }
 
+    /* animação de levitação com css */
+
+    @keyframes float {
+        0% {
+            transform: translateY(0px);
+        }
+        50%{
+            transform: translateY(-20px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
+    }
+
+    
     /* configuraçoes das imagens da esquerda */
 
     .left-img{
@@ -168,9 +215,31 @@ header{
     .img-left{
         margin-left: auto;
         margin-right: auto;
+        transform: translateY(0px);
+        animation: float 5s ease-in-out infinite;
     }
 
     .text-left-img{
+        margin-top: 20px;
+        text-align: center;
+        margin-inline: auto;
+        font-size: 14px;
+    }
+
+    /* configuraçoes das imagens da direita */
+
+    .right-img{
+        flex-direction: column;
+    }
+
+    .img-right{
+        margin-left: auto;
+        margin-right: auto;
+        transform: translateY(0px);
+        animation: float 5s ease-in-out infinite;
+    }
+
+    .text-right-img{
         margin-top: 20px;
         text-align: center;
         margin-inline: auto;
