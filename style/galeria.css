@@ -122,14 +122,15 @@ header{
 .img-left{
     max-width: 300px;
     height: auto;
-    margin-left: 20%;
     border: 50px;
+    border-radius: 15px;
 }
 
 .text-left-img{
     display: flex;
-    text-align: right;
-    margin-right: auto;
+    max-width: 300px;
+    text-align: center;
+    margin-left: 15%;
     background-color: rgba(240, 248, 255, 0.37);
     border-radius: 15px;
 }
