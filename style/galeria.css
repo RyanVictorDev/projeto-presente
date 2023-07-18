@@ -107,7 +107,10 @@ header{
     max-width: 500px;
 }
 
+/* Imagens configurações */
+
 .left-img{
+    display: flex;
     margin-top: 30px;
     display: flex;
     justify-content: center;
@@ -116,15 +119,17 @@ header{
 }
 
 
-.img-01{
+.img-left{
     max-width: 300px;
     height: auto;
-    margin-right: 20%;
+    margin-left: 20%;
+    border: 50px;
 }
 
 .text-left-img{
     display: flex;
     text-align: right;
+    margin-right: auto;
     background-color: rgba(240, 248, 255, 0.37);
     border-radius: 15px;
 }
@@ -143,14 +148,31 @@ header{
 
     .opcoes-clicks{
         justify-content: center;
-        /* align-self: last baseline; */
     }
 
     .gif-cam{
         margin-left: 20px;
     }
 
+    .gif-cam-02{
+        margin-right: 20px;
+    }
+
+    /* configuraçoes das imagens da esquerda */
+
+    .left-img{
+        flex-direction: column;
+    }
+
+    .img-left{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .text-left-img{
+        margin-top: 20px;
+        text-align: center;
+        margin-inline: auto;
         font-size: 14px;
     }
 }
