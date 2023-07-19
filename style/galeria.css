@@ -128,7 +128,6 @@ header{
 }
 
 .text-left-img{
-    display: flex;
     margin-top: 20px;
     max-width: 300px;
     text-align: center;
@@ -157,12 +156,11 @@ header{
 }
 
 .text-right-img{
-    display: flex;
     margin-top: 20px;
-    margin-right: 75px;
-    margin-left: auto;
     max-width: 300px;
     text-align: center;
+    margin-right: 75px;
+    margin-left: auto;
     background-color: rgba(240, 248, 255, 0.37);
     border-radius: 15px;
 }
